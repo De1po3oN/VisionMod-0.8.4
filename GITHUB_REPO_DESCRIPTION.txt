@@ -1,0 +1,1 @@
+Vision Mod 0.8.3 | 51 assignable hotkeys, custom neon menu, ore highlight, adaptive FPS presets and JSON configs. Fabric 1.21.11. Source preview; build unverified.

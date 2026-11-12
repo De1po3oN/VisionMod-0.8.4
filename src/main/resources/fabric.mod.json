@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "visionmod",
+  "version": "${version}",
+  "name": "Vision Mod",
+  "description": "Client-side visual enhancements and performance profiles for Minecraft.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.visionmod.VisionModClient"
+    ],
+    "main": [
+      "com.visionmod.VisionMod"
+    ]
+  },
+  "mixins": [
+    "visionmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
